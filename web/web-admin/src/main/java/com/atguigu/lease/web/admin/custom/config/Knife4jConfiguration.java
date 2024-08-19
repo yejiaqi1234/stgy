@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class Knife4jConfiguration {
+public class Knife4jConfiguration {    // knife4j配置  接口文档配置
 
     @Bean
     public OpenAPI customOpenAPI() {
