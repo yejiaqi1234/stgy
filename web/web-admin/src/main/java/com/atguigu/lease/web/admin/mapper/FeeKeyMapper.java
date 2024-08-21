@@ -3,6 +3,7 @@ package com.atguigu.lease.web.admin.mapper;
 import com.atguigu.lease.model.entity.FeeKey;
 import com.atguigu.lease.web.admin.vo.fee.FeeKeyVo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
@@ -12,8 +13,10 @@ import java.util.List;
 * @createDate 2023-07-24 15:48:00
 * @Entity com.atguigu.lease.model.FeeKey
 */
+
 public interface FeeKeyMapper extends BaseMapper<FeeKey> {
 
+    List<FeeKeyVo> feeInfoList();
 }
 
 
