@@ -104,7 +104,6 @@ public class ApartmentInfoServiceImpl extends ServiceImpl<ApartmentInfoMapper, A
                 graphInfoList.add(graphInfo);
             }
             graphInfoService.saveBatch(graphInfoList);
-
         }
 
         //2.保存配套列表
