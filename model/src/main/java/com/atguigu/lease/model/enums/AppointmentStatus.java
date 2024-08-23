@@ -17,7 +17,6 @@ public enum AppointmentStatus implements BaseEnum {
     @JsonValue
     private Integer code;
 
-
     private String name;
 
     AppointmentStatus(Integer code, String name) {
