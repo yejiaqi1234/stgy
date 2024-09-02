@@ -17,6 +17,11 @@ spring:
       pool-name: SPHHikariPool # 连接池名称
   jackson:
     time-zone: GMT+8
+  data:
+    redis:
+      host: 192.168.31.101
+      port: 6379
+      database: 0
 
 mybatis-plus:
   configuration:
